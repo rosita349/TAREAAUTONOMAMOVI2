@@ -21,8 +21,8 @@ export default function PerfilScreen() {
         const user = userData.user
 
         const { data, error } = await supabase
-          .from('Perfiles_recordatorios') // Nombre correcto de tu tabla
-          .select('nombre, correo') // Campos correctos según tu tabla
+          .from('Perfiles_recordatorios') 
+          .select('nombre, correo') 
           .eq('id', user.id)
           .single()
 

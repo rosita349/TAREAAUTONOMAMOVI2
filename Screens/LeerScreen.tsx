@@ -1,14 +1,4 @@
-import {
-  FlatList,
-  StyleSheet,
-  Text,
-  View,
-  RefreshControl,
-  TouchableOpacity,
-  Alert,
-  ActivityIndicator,
-  Dimensions,
-} from 'react-native'
+import {FlatList,StyleSheet,Text,View,RefreshControl,TouchableOpacity,Alert,ActivityIndicator,Dimensions,} from 'react-native'
 import React, { useEffect, useState } from 'react'
 import { supabase } from '../Config/Autentication'
 import { useFocusEffect } from '@react-navigation/native'
